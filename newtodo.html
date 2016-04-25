@@ -42,11 +42,36 @@
         <h3>new TODO</h3>
 
         <p>TODO - DEMO</p>
+
+        <div class="form-group">
+        <label for="Projectname">Projectname:</label>
+        <input type="text" class="form-control" id="usr">
+        </div>
           <div class="form-group">
-          <label for="typeTODO">Type your new TODO</label>
+          <label for="typeTODO">Desctiption:</label>
           <textarea class="form-control" rows="5" id="comment"></textarea>
           </div>
-        <p>................</p>
+        <p><strong>Deadline:</p>
+         <div class="form-group">
+                <div class='input-group date' id='datetimepicker5'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker5').datetimepicker({
+                    defaultDate: "11/1/2013",
+                    disabledDates: [
+                        moment("12/25/2013"),
+                        new Date(2013, 11 - 1, 21),
+                        "11/22/2013 00:53"
+                    ]
+                });
+            });
+        </script>
         <p>................</p>
 
         <div class="uploadbtn">
