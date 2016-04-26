@@ -1,5 +1,10 @@
-.body {
-	background-color: 0x1111;
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	bottom: 0px;
 }
 
 .container {
@@ -12,13 +17,13 @@
 }
 
 .editbtn {
-	margin-top: 150px;
+
 }
 
 .uploadbtn{
-	margin-top: 30px;
+
 }
 
 .progress {
-	margin-top: 30px;
+
 }
