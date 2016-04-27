@@ -32,3 +32,23 @@ h3 {
 .progress {
 
 }
+
+.author:hover, .author:focus, .author:active {
+   -webkit-stroke-width: 5.3px;
+   -webkit-stroke-color: #000000;
+   -webkit-fill-color: #000000;
+   text-shadow: 1px 0px 20px darkblue;
+   -webkit-transition: width 0.3s; /*Safari & Chrome*/
+   transition: width 0.3s;
+   -moz-transition: width 0.3s; /* Firefox 4 */
+   -o-transition: width 0.3s; /* Opera */
+   }
+
+ .author a{
+   -webkit-transition: all 0.3s ease-in; /*Safari & Chrome*/
+   transition: all 0.3s ease-in;
+   -moz-transition: all 0.3s ease-in; /* Firefox 4 */
+   -o-transition: all 0.3s ease-in; /* Opera */
+   text-decoration:none;
+   color:black;
+   }
